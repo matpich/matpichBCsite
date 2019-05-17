@@ -28,3 +28,37 @@
     padding-bottom: 30px;
     border-bottom: 1px solid black;
 }
+
+.go-down{
+    position: absolute;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 140px;
+    width: 140px;
+    background-color: black;
+    border-radius: 50% 50% 0% 0%;
+
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+    transform: translateY(50%)
+}
+
+#angle-down {
+    color:white;
+    transform: scale(3.5) translateY(-53%);
+
+    animation-name: jump;
+    animation-duration: .6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes jump {
+    100% {
+        transform: scale(3.5) translateY(-45%);
+    }
+}

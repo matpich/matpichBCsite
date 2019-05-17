@@ -10,7 +10,11 @@ class Welcome extends React.Component {
                 <div class="name-claim">
                     <h1>Mateusz <br /> Pichniarczyk</h1>
                     <div class="claim">frontend developer & graphic designer</div>
+                    <div class="go-down">
+                        <i class="fas fa-angle-down" id="angle-down"></i>
+                    </div>
                 </div>
+
             </div>
         )
     }
