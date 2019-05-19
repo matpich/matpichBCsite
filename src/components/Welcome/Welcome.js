@@ -6,12 +6,12 @@ import "./Welcome.css"
 class Welcome extends React.Component {
     render() {
         return (
-            <div class="welcome-section-container">
-                <div class="name-claim">
-                    <h1>Mateusz <br /> Pichniarczyk</h1>
-                    <div class="claim">frontend developer & graphic designer</div>
-                    <div class="go-down">
-                        <i class="fas fa-angle-down" id="angle-down"></i>
+            <div className="welcome-section-container">
+                <div className="name-claim">
+                    <h1 className="name">Mateusz Pichniarczyk</h1>
+                    <div className="claim">frontend developer & graphic designer</div>
+                    <div className="go-down">
+                        <i className="fas fa-angle-down" id="angle-down"></i>
                     </div>
                 </div>
 

@@ -1,5 +1,9 @@
 @import "../../styles/global.css";
 
+:root {
+    --test-border: 0px;
+}
+
 .welcome-section-container {
     height: 100vh;
     padding: 0;
@@ -13,7 +17,8 @@
     padding: 7%;
 }
 
-.welcome-section-container h1 {
+.name {
+    width: 80%;
     padding: 0;
     color: white;
     font-weight: 600;
@@ -51,7 +56,7 @@
     transform: scale(3.5) translateY(-53%);
 
     animation-name: jump;
-    animation-duration: .6s;
+    animation-duration: .55s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -60,5 +65,63 @@
 @keyframes jump {
     100% {
         transform: scale(3.5) translateY(-45%);
+    }
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 500px) {
+    .welcome-section-container {
+        width: 100%;
+        padding: 0;
+        background-image: url("matpichbg.png");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .name-claim {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        padding: 7% 0;
+
+        border: var(--test-border) solid black;
+    }
+    
+
+    .name {
+        width: 100%;
+        min-width: 300px;
+        display: block;
+        font-size: calc(14pt + 7vw);
+        /* font-size: 35pt; */
+        line-height: 50pt;
+        text-align: center;
+
+        border: var(--test-border) solid blue;
+    }
+
+    .claim {
+        margin: auto;
+        margin-top: 30px;
+        width: 80%;
+        min-width: 240px;
+        padding: 0 7% 30pt 7%;
+
+        border: var(--test-border) solid olive;
+        border-bottom: 1px solid black;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .welcome-section-container {
+        overflow: scroll;
+    }
+
+    .name {
+        font-size: 39.666px;
     }
 }
