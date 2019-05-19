@@ -118,8 +118,7 @@
         width: 100%;
         min-width: 300px;
         font-size: calc(14pt + 7vw);
-        /* font-size: 35pt; */
-        line-height: 50pt;
+        line-height: calc(40.3px + 7vw);
         text-align: center;
 
         border: var(--test-border) solid blue;
