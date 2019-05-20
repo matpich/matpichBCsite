@@ -10,6 +10,7 @@
     background-image: url("matpichbg.png");
     background-size: cover;
     background-position: bottom;
+    background-attachment: fixed;
 }
 
 .name-claim {
@@ -137,10 +138,6 @@
 }
 
 @media only screen and (max-width: 300px) {
-    .welcome-section-container {
-        overflow: scroll;
-    }
-
     .name {
         font-size: 39.666px;
     }

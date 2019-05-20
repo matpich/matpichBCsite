@@ -1,0 +1,80 @@
+@import "../../styles/global.css";
+
+.who-am-i {
+    background-color: #fbfbfb;
+}
+
+
+
+.describe {
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+.photo-container {
+    width: 80vw;
+    height: 80vw;
+    display: flex;
+    justify-content: center;
+}
+
+.details, .detail {
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details {
+    margin-bottom: 30px;
+}
+
+#detail-social {
+
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+#prefix {
+    color: var(--main-color-orange);
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 580px) {
+    .who-am-i {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .describe {
+        display: block;
+
+        padding: 0 10%;
+
+        text-align: center;
+    }
+    .photo-container img {
+        object-fit: scale-down;
+    }
+
+    .detail {
+        margin-top: 15px;
+    }
+
+    .detail p {
+        margin-top: 5px;
+    }
+
+    #detail-social {
+        max-width: 40%;
+        min-width: 30%;
+        margin-top: 30px;
+    }
+
+    #detail-social i {
+        font-size: 50px;
+    }
+}
