@@ -6,7 +6,7 @@ import "./WhoAmI.css"
 class WhoAmI extends React.Component {
     render() {
         return ( 
-            <section className="who-am-i">
+            <section className="who-am-i" id="who-am-i">
                 <h1 className="section-title">Kim jestem?</h1>
 
                 <p className="describe">Lorem, ipsum dolor sit amet consectetur adipisicing elit.Recusandae ex debitis reprehenderit tempore est itaque velit laudantium error ? Dolorum illum repudiandae ad ? Illum quaerat sapiente veniam ut corporis dolorum sunt, distinctio recusandae incidunt vero iusto accusantium.Illo maxime quasi dignissimos, similique repellat facilis provident dicta eaque at, fugit facere suscipit.</p>

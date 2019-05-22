@@ -1,0 +1,27 @@
+@import "../../styles/global.css";
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    color:white;
+}
+
+#menu a, .menu-trigger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+}
+
+#menu a:hover {
+    background-color: var(--main-color-orange);
+    color: black;
+    border-top: 1px solid black;
+}
+
+.toggle {
+    height: 0px;
+    transition: .7s;
+    overflow: hidden;
+}
