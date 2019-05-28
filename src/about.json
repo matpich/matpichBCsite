@@ -1,0 +1,20 @@
+{
+    "codersCamp": {
+        "title":"CodersCamp",
+        "date": "Luty 2019 - Maj 2019",
+        "topic":"Programowanie Webowe",
+        "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Recusandae ex debitis reprehenderit tempore est itaque velit laudantium error ? Dolorum illum repudiandae ad ? Illum quaerat sapiente veniam ut.",
+        "link":"https://coderscamp.pl/",
+        "source":"www.coderscamp.pl"
+    },
+
+    "swps": {
+        "title":"SWPS Uniwersytet Humanistycznospołeczny we Wrocławiu",
+        "date":"Październik 2012 - Lipiec 2015",
+        "topic":"licencjat Grafika - Komunikacja wizerunkowa",
+        "desc":"Lorem, ipsum dolor sit amet consectetur adipisicing elit.Recusandae ex debitis reprehenderit tempore est itaque velit laudantium error ? Dolorum illum repudiandae ad ? Illum quaerat sapiente veniam ut.",
+        "link":"https://www.swps.pl/wroclaw",
+        "source":"www.swps.pl"
+    }
+
+}
