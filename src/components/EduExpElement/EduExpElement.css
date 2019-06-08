@@ -30,10 +30,15 @@
     margin-top: 20px;
     display: flex;
     align-items: center;
+    color: black;
 }
 
-.source:hover {
+.source:hover > * {
     color: var(--main-color-orange);
+}
+
+.source:visited {
+    color: black;
 }
 
 .link {
@@ -42,11 +47,7 @@
     font-weight: 600;
 }
 
-.link:visited {
-    color: black;
-}
-
-.fas {
+.fa-link {
     margin-right: 15px;
     cursor: pointer;
 }

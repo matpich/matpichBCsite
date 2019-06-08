@@ -23,7 +23,10 @@ a:visited {
 .section-title {
     margin-top: 30px;
     color: var(--main-color-orange);
-    font-size: calc(14pt + 7vw);
+    font-size: calc(7pt + 7vw);
+
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
 }
 
 .section-subtitle {

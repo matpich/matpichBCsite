@@ -11,10 +11,10 @@ export default (props) => {
             <div className="topic">{props.topic}</div>
             <p className="desc">{props.desc}</p>
 
-            <div className="source">
+            <a className="source" href={props.link} target="_blank">
                 <i className="fas fa-link"></i>
-                <a className="link" href={props.link} target="_blank">{props.source}</a>
-            </div>
+                <p className="link">{props.source}</p>
+            </a>
         </div>
     )
 }

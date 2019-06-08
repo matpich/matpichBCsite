@@ -15,6 +15,24 @@
         "desc":"Lorem, ipsum dolor sit amet consectetur adipisicing elit.Recusandae ex debitis reprehenderit tempore est itaque velit laudantium error ? Dolorum illum repudiandae ad ? Illum quaerat sapiente veniam ut.",
         "link":"https://www.swps.pl/wroclaw",
         "source":"www.swps.pl"
+    },
+
+    "radio": {
+        "title": "Zespół Szkół Nr 1 im. Wilhelma Rotkiewicza w Dzierżoniowie",
+        "date": "Wrzesień 2008 - Maj 2012",
+        "topic": "Technik Informatyk",
+        "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Recusandae ex debitis reprehenderit tempore est itaque velit laudantium error ? Dolorum illum repudiandae ad ? Illum quaerat sapiente veniam ut.",
+        "link": "http://zs1-radiobuda.pl/",
+        "source": "www.zs1-radiobuda.pl"
+    },
+
+    "threeM": {
+        "title": "3M Poland",
+        "date": "Październik 2018 - obecnie",
+        "topic": "DES Designer",
+        "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Recusandae ex debitis reprehenderit tempore est itaque velit laudantium error ? Dolorum illum repudiandae ad ? Illum quaerat sapiente veniam ut.",
+        "link": "https://www.3mpolska.pl/3M/pl_PL/firma-pl/",
+        "source": "www.3mpolska.pl"
     }
 
 }

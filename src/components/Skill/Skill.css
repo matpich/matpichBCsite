@@ -1,0 +1,30 @@
+@import "../../styles/global.css";
+
+.single-skill {
+    width: 100%;
+    margin-top: 30px;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-circle {
+    display: block;
+    margin-left: 5px;
+    color: #b3b3b3;
+}
+
+.selected {
+    color: var(--main-color-orange);
+}
+
+.skill-name {
+    font-weight: 600;
+    font-size: 1.15em;
+}
+
+.skill-level {
+    display: flex;
+    justify-content: right;
+}
