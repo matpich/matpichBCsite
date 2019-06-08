@@ -1,0 +1,12 @@
+{
+    "dev": [
+        ["Python", 2],
+        ["Ruby", 3],
+        ["C++", 1],
+        ["JavaScript", 5]
+    ],
+
+    "lang": [
+        ["Język angielski", 4]
+    ]
+}

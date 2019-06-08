@@ -1,0 +1,25 @@
+@import "../../styles/global.css";
+
+
+.category-skills {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 10%;
+}
+
+.category-title {
+    margin-top: 30px;
+    font-size: 1.35em;
+    color: var(--main-color-orange);
+}
+
+.skills {
+    background-color: #fbfbfb;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}

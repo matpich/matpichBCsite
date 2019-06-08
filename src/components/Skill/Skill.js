@@ -19,9 +19,9 @@ class Skill extends React.Component {
         let counter = 1;
         for(let i=1; i<=5; i++) {
             if(counter <= this.props.lvl){
-                scale.push(<i className="fas fa-circle selected"></i>);
+                scale.push(<i key={i} className="fas fa-circle selected"></i>);
             } else {
-                scale.push(<i className="fas fa-circle"></i>)
+                scale.push(<i key={i} className="fas fa-circle"></i>)
             }
             counter++;
         }

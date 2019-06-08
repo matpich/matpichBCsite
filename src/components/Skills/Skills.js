@@ -1,16 +1,17 @@
 import React from "react";
 
-import Skill from "../Skill/Skill.js"
+import SkillsCategory from "../SkillsCategory/SkillsCategory.js"
 
 import "./Skills.css"
+
+import { dev, lang } from "../../skills.json";
 
 export default () => {
     return (
         <section className="skills">
             <h1 className="section-title">Umiejętności</h1>
-            <Skill skillName="Python" lvl={2}/>
-            <Skill skillName="Ruby" lvl={5} />
-            <Skill skillName="C++" lvl={4} />
+            <SkillsCategory catName="Programistyczne" skiList={dev} />
+            <SkillsCategory catName="Języki obce" skiList={lang} />
         </section>
     )
 }
