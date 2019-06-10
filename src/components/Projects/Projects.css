@@ -1,0 +1,11 @@
+@import "../../styles/global.css";
+
+.projects {
+    background-color: #ebebeb;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}

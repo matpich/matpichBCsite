@@ -1,0 +1,7 @@
+@import "../../styles/global.css";
+
+.projects-category {
+    width: 100%;
+
+    padding: 0 10%;
+}

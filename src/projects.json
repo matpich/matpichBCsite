@@ -1,0 +1,37 @@
+{
+    "Graficzne": [
+        {
+            "src": "http://assets.worldwildlife.org/photos/14082/images/story_full_width/_MG_5621.jpg?1501080820",
+            "alt": "random",
+            "description": "Lorem Ipsum dolor sit amet"
+        },
+        {
+            "src": "https://image-szkolenia.pl/wp-content/uploads/2018/05/logoo.jpg",
+            "alt": "random2",
+            "description": "Lubię placki."
+        },
+        {
+            "src": "https://exclusiveimage.co.za/wp-content/uploads/2017/10/Exclusive-image-background-1.jpg",
+            "alt": "random3"
+        }
+    ],
+    "Programowe": [
+        {
+            "src": "https://www.businessblogshub.com/wp-content/uploads/2019/05/workattire.jpg",
+            "alt": "random4"
+        },
+        {
+            "src": "https://www.hinduwebsite.com/hinduism/images/image-worship.jpg",
+            "alt": "random5",
+            "description": "Szanowny marszałku, wysoka izbo."
+        },
+        {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUwRL3ux-Q-VfavdazMX8zB_tWS6krYRab1ghc0SK-iaJTCRap",
+            "alt": "random6"
+        },
+        {
+            "src": "https://s3.ap-south-1.amazonaws.com/hansindia-bucket/h-upload/feeds/2019/04/11/162885-blackhole.jpg",
+            "alt": "random7"
+        }
+    ]
+}

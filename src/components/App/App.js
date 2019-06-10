@@ -5,6 +5,7 @@ import WhoAmI from "../WhoAmI/WhoAmI";
 import Menu from "../Menu/Menu";
 import EduExp from "../EduExp/EduExp"
 import Skills from "../Skills/Skills";
+import Projects from "../Projects/Projects";
 
 class App extends React.Component {
     render() {
@@ -15,6 +16,7 @@ class App extends React.Component {
                 <WhoAmI />
                 <EduExp />
                 <Skills />
+                <Projects />
             </div>
         )
     }

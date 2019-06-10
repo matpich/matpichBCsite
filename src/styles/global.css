@@ -1,5 +1,5 @@
-/* Clearfix */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,600');
+@import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";
 
 :root {
     --main-color-orange: #EB6D21;
