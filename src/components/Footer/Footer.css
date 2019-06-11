@@ -1,0 +1,31 @@
+@import "../../styles/global.css";
+
+footer {
+    background-color: black;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 20px;
+}
+
+.contact {
+    font-weight: 400;
+    margin-top: 20px;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+.foot-icon {
+    display: block;
+    font-size: 1.8em;
+    margin-right: 15px;
+}
+
+.contact-form {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
