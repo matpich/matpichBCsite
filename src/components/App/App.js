@@ -13,12 +13,18 @@ class App extends React.Component {
         return (
             <div>
                 <Welcome />
-                <Menu />
-                <WhoAmI />
-                <EduExp />
-                <Skills />
-                <Projects />
-                <Footer />
+                <div id="a">
+                    <div id="b">
+                        <Menu />
+                    </div>
+                    <div id="c">
+                        <WhoAmI />
+                        <EduExp />
+                        <Skills />
+                        <Projects />
+                        <Footer />
+                    </div>
+                </div>
             </div>
         )
     }

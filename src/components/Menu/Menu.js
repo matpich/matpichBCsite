@@ -19,7 +19,7 @@ export default class Menu extends React.Component {
                 <div className="menu-trigger"><i className="fas fa-bars"></i></div>
                 <div className="toggle" style={{height: `${this.state.menuHeight}`}}>
                     <a href="#who-am-i">Kim jestem?</a>
-                    <a href="/">Edukacja i doświadczenie</a>
+                    <a href="/">Edukacja <br id="break"/>i doświadczenie</a>
                     <a href="/">Umiejętności</a>
                     <a href="/">Projekty</a>
                     <a href="/">Kontakt</a>

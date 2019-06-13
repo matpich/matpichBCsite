@@ -2,11 +2,23 @@
 
 .who-am-i {
     background-color: #fbfbfb;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
+
+
 
 .describe {
     margin-top: 30px;
     line-height: 25px;
+    display: block;
+
+    padding: 0 10%;
+
+    text-align: center;
 }
 
 .photo-container {
@@ -14,6 +26,12 @@
     height: 80vw;
     display: flex;
     justify-content: center;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.photo-container img {
+    object-fit: scale-down;
 }
 
 .details, .detail {
@@ -24,6 +42,14 @@
     align-items: center;
 }
 
+.detail {
+    margin-top: 15px;
+}
+
+.detail p {
+    margin-top: 5px;
+}
+
 .details {
     margin-bottom: 30px;
 }
@@ -32,47 +58,25 @@
 
     flex-direction: row;
     justify-content: space-around;
+    max-width: 40%;
+    min-width: 30%;
+    margin-top: 30px;
 
+}
+
+#detail-social i {
+    font-size: 50px;
 }
 
 #prefix {
     color: var(--main-color-orange);
 }
 
+
 /* Mobile Styles */
-@media only screen and (max-width: 580px) {
-    .who-am-i {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+@media only screen and (min-width: 767px) {
 
-    .describe {
-        display: block;
-
-        padding: 0 10%;
-
-        text-align: center;
-    }
-    .photo-container img {
-        object-fit: scale-down;
-    }
-
-    .detail {
-        margin-top: 15px;
-    }
-
-    .detail p {
-        margin-top: 5px;
-    }
-
-    #detail-social {
-        max-width: 40%;
-        min-width: 30%;
-        margin-top: 30px;
-    }
-
-    #detail-social i {
-        font-size: 50px;
+    #detail-social{
+        max-width: 250px;
     }
 }

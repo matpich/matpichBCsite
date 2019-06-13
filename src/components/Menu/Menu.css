@@ -4,9 +4,6 @@
     display: flex;
     flex-direction: column;
     color:white;
-
-    top: 0;
-    position: sticky;
 }
 
 #menu a, .menu-trigger {
@@ -27,4 +24,47 @@
     height: 0px;
     transition: .7s;
     overflow: hidden;
+}
+
+#break {
+    display: none;
+}
+@media only screen and (min-width: 767px) {
+    .menu-trigger {
+        display:none;
+    }
+
+    .toggle {
+        height: auto !important;
+
+        display: flex;
+        flex-direction: column;
+        width: 140px;
+    }
+
+    .toggle a {
+        display: flex;
+        text-align: center;
+        min-height: 80px;
+    }
+
+    #menu {
+        top: 0;
+        position: sticky;
+        z-index: 1;
+
+        width:140px;
+
+
+        left: 7%;
+        top: 7%;
+    }
+
+    #menu a:hover {
+        border: none;
+    }
+
+    #break {
+        display: inline;
+    }
 }

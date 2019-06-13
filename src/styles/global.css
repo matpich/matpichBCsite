@@ -45,3 +45,32 @@ a:visited {
         overflow: scroll;
     }
 }
+
+@media only screen and (min-width: 582px) {
+    .section-title {
+        font-size: 50px;
+    }
+}
+#a {
+    position: relative;
+}
+
+#b {
+    position: sticky;
+    top: 0;
+}
+@media only screen and (min-width: 767px) {
+    .who-am-i,
+    .edu-exp,
+    .skills,
+    .projects {
+        padding-left: calc(7% + 140px + 30px);
+    }
+
+    #b {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+}
