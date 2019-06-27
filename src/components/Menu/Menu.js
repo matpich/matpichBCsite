@@ -15,10 +15,10 @@ export default class Menu extends React.Component {
 
     render() {
         return (
-            <div id="menu" onClick={this.toggleMenu}>
+            <div className="menu" onClick={this.toggleMenu}>
                 <div className="menu-trigger"><i className="fas fa-bars"></i></div>
                 <div className="toggle" style={{height: `${this.state.menuHeight}`}}>
-                    <a href="#who-am-i">Kim jestem?</a>
+                    <a href="#who-am-i" ref={this.props.WhoAmIMenuRef}>Kim jestem?</a>
                     <a href="/">Edukacja <br id="break"/>i doświadczenie</a>
                     <a href="/">Umiejętności</a>
                     <a href="/">Projekty</a>
