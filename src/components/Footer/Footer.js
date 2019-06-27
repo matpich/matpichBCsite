@@ -5,7 +5,7 @@ import "./Footer.css"
 export default class Footer extends React.Component {
     render () {
         return (
-            <footer>
+            <footer id="contact" ref={this.props.contactRef}>
                 <h1 className="contact">Kontakt</h1>
                 <div className="contacts-options">
                     <div className="contact-form">

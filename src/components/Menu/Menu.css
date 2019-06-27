@@ -12,6 +12,7 @@
     align-items: center;
     height: 50px;
     background-color: black;
+    user-select: none;
 }
 
 .menu a:hover,
@@ -19,6 +20,10 @@
     background-color: var(--main-color-orange);
     color: black;
     border-top: 1px solid black;
+}
+
+.menu a:link {
+    color:white;
 }
 
 

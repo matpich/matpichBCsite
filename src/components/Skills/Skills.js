@@ -6,9 +6,9 @@ import "./Skills.css"
 
 import { dev, lang } from "../../skills.json";
 
-export default () => {
+export default (props) => {
     return (
-        <section className="skills">
+        <section id="skills" className="skills" ref={props.skillsRef}>
             <div className="sills-container">
                 <h1 className="section-title">Umiejętności</h1>
                 <SkillsCategory catName="Programistyczne" skiList={dev} />

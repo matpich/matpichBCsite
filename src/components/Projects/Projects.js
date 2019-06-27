@@ -7,7 +7,10 @@ import projects from "../../projects.json";
 import "./Projects.css";
 
 export default class Projects extends React.Component {
-    state = {categories: []};
+    constructor(props) {
+        super(props)
+        this.state = { categories: [] };
+    }
 
     componentDidMount() {
         const allCategories = [];
@@ -20,7 +23,7 @@ export default class Projects extends React.Component {
 
     render () {
         return (
-            <section className="projects">
+            <section id="projects" className="projects" ref={this.props.projectsRef}>
                 <h1 className="section-title">Projekty</h1>
                 {this.state.categories}
             </section>

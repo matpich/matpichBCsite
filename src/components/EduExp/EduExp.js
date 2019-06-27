@@ -4,9 +4,9 @@ import "./EduExp.css"
 import EduExpElement from "../EduExpElement/EduExpElement";
 import { codersCamp, swps, radio, threeM} from "../../about.json"
 
-export default () => {
+export default (props) => {
     return (
-        <section className="edu-exp">
+        <section id="experience" className="edu-exp" ref={props.eduExpRef}>
             <h1 className="section-title">Edukacja</h1>
             <EduExpElement 
                 title={codersCamp.title}

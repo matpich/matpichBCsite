@@ -18,11 +18,11 @@ export default class Menu extends React.Component {
             <div className="menu" onClick={this.toggleMenu}>
                 <div className="menu-trigger"><i className="fas fa-bars"></i></div>
                 <div className="toggle" style={{height: `${this.state.menuHeight}`}}>
-                    <a href="#who-am-i" ref={this.props.WhoAmIMenuRef}>Kim jestem?</a>
-                    <a href="/">Edukacja <br id="break"/>i doświadczenie</a>
-                    <a href="/">Umiejętności</a>
-                    <a href="/">Projekty</a>
-                    <a href="/">Kontakt</a>
+                    <a href="#who-am-i" ref={this.props.whoAmIMenuRef}>Kim jestem?</a>
+                    <a href="#experience" ref={this.props.eduExpMenuRef}>Edukacja <br id="break"/>i doświadczenie</a>
+                    <a href="#skills" ref={this.props.skillsMenuRef}>Umiejętności</a>
+                    <a href="#projects" ref={this.props.projectsMenuRef}>Projekty</a>
+                    <a href="#contact" ref={this.props.contactMenuRef}>Kontakt</a>
                 </div>
             </div>
         )
