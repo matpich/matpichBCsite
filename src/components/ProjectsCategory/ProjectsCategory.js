@@ -45,7 +45,10 @@ export default class ProjectsCategory extends React.Component {
         return (
             <div className="projects-category">
                 <h1 className="category-title">{this.props.catName}</h1>
-                {this.state.projects}
+                <div className="projects-sub">
+                    {this.state.projects}
+                </div>
+
             </div>
         )
     }
