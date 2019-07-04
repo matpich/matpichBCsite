@@ -22,7 +22,7 @@ export default class Menu extends React.Component {
                     <a href="#experience" ref={this.props.eduExpMenuRef}>Edukacja <br id="break"/>i doświadczenie</a>
                     <a href="#skills" ref={this.props.skillsMenuRef}>Umiejętności</a>
                     <a href="#projects" ref={this.props.projectsMenuRef}>Projekty</a>
-                    <a href="#contact" ref={this.props.contactMenuRef}>Kontakt</a>
+                    {/* <a href="#contact" ref={this.props.contactMenuRef}>Kontakt</a> */}
                 </div>
             </div>
         )

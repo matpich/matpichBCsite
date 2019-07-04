@@ -33,7 +33,7 @@ class App extends React.Component {
             this.highlightMenu(this.references.eduExpRef, this.references.eduExpMenuRef);
             this.highlightMenu(this.references.skillsRef, this.references.skillsMenuRef);
             this.highlightMenu(this.references.projectsRef, this.references.projectsMenuRef);
-            this.highlightMenu(this.references.contactRef, this.references.contactMenuRef);
+            // this.highlightMenu(this.references.contactRef, this.references.contactMenuRef);
         })
     }
 

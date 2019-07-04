@@ -1,4 +1,5 @@
 import React from "react";
+import ModalImage from "react-modal-image";
 
 import "./Project.css";
  
@@ -16,9 +17,12 @@ export default class Project extends React.Component {
   render() {
     return (
       <div className="project-container">
-        <img
+        <ModalImage 
           className="project-image"
-          src={this.props.src}
+          large={this.props.src}
+          small={this.props.src}
+          hideDownload={true}
+          hideZoom={true}
           alt={this.props.alt} />
           {this.state.description}
       </div>
